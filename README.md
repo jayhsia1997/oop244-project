@@ -8,7 +8,7 @@ In this project, you will build an application that enables waiters to take cust
 
 | Milestone | Revision | Comments |
 |-----------|:--------:|:--------:|
-| [MS1](#milestone-1) | V1.0 | |
+| [MS1](#milestone-1) | V1.1 | [Clarify Menu display function's parameter default](#display) |
 | [MS2](#milestone-2) | V1.1 | | 
 | [MS3](#milestone-3) | V1.0 | | 
 | [MS4](#milestone-4) | V1.0 | |
@@ -308,6 +308,7 @@ ostream& display(ostream& ostr) const;
 ```
 #### Function Requirements:
 - The function should output the formatted content of the `MenuItem` to the given `ostream`.
+- The function will have a default value of cout for the ostream parameter
 - If the `MenuItem` is valid (m_content is not null), the function should:
    - Display the content with proper indentation based on the `indentation number` and the `indentation size`. 
    - Include the `row` number formatted as a two-character-wide value followed by `"- "` if row is non-negative.
